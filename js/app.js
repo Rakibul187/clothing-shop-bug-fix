@@ -23,7 +23,7 @@ const showProducts = (products) => {
    for (const product of allProducts) {
       const image = product.image;
       const div = document.createElement('div');
-      div.classList.add('product');
+      div.classList.add('card');
       div.innerHTML = `<div class="single-product">
       <div>
     <img class="product-image" src=${image}></img>
